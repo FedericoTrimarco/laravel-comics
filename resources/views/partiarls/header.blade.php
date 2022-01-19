@@ -9,7 +9,10 @@
                 <li class="me-3 h-100">
                     <a
                         href="{{ route('home') }}"
-                        @if (Request::route()->getName() === 'home') class="active" @endif
+                        class="
+                            h-100 d-flex align-items-center text-decoration-none
+                            @if (Request::route()->getName() === 'home') active @endif
+                        "
                     >
                         HOME
                     </a>
@@ -17,7 +20,10 @@
                 <li class="h-100">
                     <a
                         href="{{ route('news') }}"
-                        @if (Request::route()->getName() === 'news') class="active" @endif
+                        class="
+                            h-100 d-flex align-items-center text-decoration-none
+                            @if (Request::route()->getName() === 'news') active @endif
+                        "
                     >
                         NEWS
                     </a>
