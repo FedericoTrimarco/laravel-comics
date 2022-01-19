@@ -1,0 +1,13 @@
+.header-nav{
+    li{
+        a{
+            border-bottom: 3px solid transparent;
+            color: #000;
+
+            &.active{
+                color: #0084ff;
+                border-color: currentColor;
+            }
+        }
+    }
+}

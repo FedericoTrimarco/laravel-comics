@@ -1,0 +1,35 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.border{
+    border: 2px solid red;
+}
+
+// DISPLAY
+// flex
+.d-flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
+// SIZING
+.h-100{
+    height: 100%;
+}
+// SPACING
+.me-3{
+    margin-right: 30px;
+}
+
+// LIST
+.list-none{
+    list-style: none;
+}
+
+// TEXT
+.text-decoration-none{
+    text-decoration: none;
+}

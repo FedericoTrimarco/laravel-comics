@@ -1,0 +1,51 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.me-3 {
+  margin-right: 30px;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header-nav li a {
+  border-bottom: 3px solid transparent;
+  color: #000;
+}
+.header-nav li a.active {
+  color: #0084ff;
+  border-color: currentColor;
+}
