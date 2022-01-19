@@ -44,6 +44,10 @@ body {
 .header-nav li a {
   border-bottom: 3px solid transparent;
   color: #000;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .header-nav li a.active {
   color: #0084ff;
