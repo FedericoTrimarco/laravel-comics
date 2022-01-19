@@ -1,4 +1,4 @@
-<header class="border">
+<header>
     <div class="container d-flex align-items-center">
         <div>
             <img src="{{ asset('images/dc-logo.png') }}" alt="dc-logo" class="me-3">

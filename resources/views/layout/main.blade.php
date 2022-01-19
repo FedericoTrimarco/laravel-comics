@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <title>Document</title>
 </head>
-<body>
+<body class="d-flex flex-column">
     @include('partiarls.header')
 
-    <main>
+    <main class="flex-grow-1 py-5">
         @yield('main-content')
     </main>
 
