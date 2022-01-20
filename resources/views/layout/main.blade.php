@@ -12,7 +12,7 @@
 <body class="d-flex flex-column">
     @include('partiarls.header')
 
-    <main>
+    <main class="flex-grow-1">
         @yield('main-content')
     </main>
 

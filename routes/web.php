@@ -31,7 +31,6 @@ Route::get('/comic/{id}', function ($id) {
 
     if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
         $comic = $comics[$id];
-        dump($comic);
     } else {
         abort(404);
     }

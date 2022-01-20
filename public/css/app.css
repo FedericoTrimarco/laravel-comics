@@ -216,21 +216,24 @@ footer h2 {
   width: 100%;
   height: 100%;
 }
-.product-details .jumbo .comic-img span {
+.product-details .jumbo .comic-img span, .product-details .jumbo .comic-img a {
   background-color: #0182f9;
   font-weight: bold;
   color: #fff;
   padding: 5px;
 }
-.product-details .jumbo .comic-img span:first-of-type {
+.product-details .jumbo .comic-img span {
   position: absolute;
   top: 0;
   left: 0;
 }
-.product-details .jumbo .comic-img span:last-of-type {
+.product-details .jumbo .comic-img a {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+.product-details .jumbo .comic-img a:hover {
+  text-decoration: underline;
 }
 .product-details .comic-info {
   height: 800px;

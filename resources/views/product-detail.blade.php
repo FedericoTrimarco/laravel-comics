@@ -7,7 +7,7 @@
                 <div class="comic-img">
                     <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                     <span>COMIC BOOK</span><br>
-                    <span class="w-100 text-center">VIEW GALLERY</span>
+                    <a href="/" class="w-100 text-center text-decoration-none">VIEW GALLERY</a>
                 </div>
             </div>
         </div>
