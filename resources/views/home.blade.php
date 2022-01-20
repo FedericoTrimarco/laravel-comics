@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('main-content')
-    <section class="home container">
+    <section class="home container py-5">
         <div class="cards d-flex flex-wrap">
             @foreach ($comics as $comic)
                 <div class="card">

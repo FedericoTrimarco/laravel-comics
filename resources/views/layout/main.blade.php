@@ -11,7 +11,7 @@
 <body class="d-flex flex-column">
     @include('partiarls.header')
 
-    <main class="flex-grow-1 py-5">
+    <main class="flex-grow-1">
         @yield('main-content')
     </main>
 
