@@ -1,0 +1,69 @@
+.product-details{
+    .jumbo{
+        height: 500px;
+        background-image: url("/images/jumbotron.jpg");
+        background-size: cover;
+        .comic-img{
+            position: relative;
+            top: 230px;
+            width: 250px;
+            height: 350px;
+            border: 2px solid #fff;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            span{
+                background-color: $primaryColor;
+                font-weight: bold;
+                color: #fff;
+                padding: 5px;
+                &:first-of-type{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+                &:last-of-type{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+                
+            }
+        }
+    }
+    .comic-info{
+        height: 800px;
+        background: $primaryColor;
+        background: linear-gradient(180deg, $primaryColor 13%, #fff 13%);
+        .left{
+            padding-right: 30px;
+            width: 75%;
+            h1{
+                color: #1c3d57;
+            }
+            p{
+                line-height: 30px;
+                color: #76787a;
+            }
+            .price{
+                background-color: #55ba5a;
+                border-bottom: 2px solid green;
+                color: rgba(255, 255, 255, 0.473);
+                margin: 30px 0;
+                .detail-white{
+                    color: #fff;
+                }
+                .d-flex{
+                    border-right: 2px solid green;
+                }
+            }
+        }
+        .right{
+            width: 25%;
+            h2{
+                color: #807d7d;
+            }
+        }
+    }
+}

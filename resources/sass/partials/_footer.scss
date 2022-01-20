@@ -1,6 +1,6 @@
 footer{
-    background: rgb(1,130,249);
-    background: linear-gradient(180deg, rgba(1,130,249,1) 13%, rgba(48,48,48,1) 14%);
+    background: $primaryColor;
+    background: linear-gradient(180deg, $primaryColor 13%, rgba(48,48,48,1) 14%);
     padding: 60px 0;
     li{
         margin-left: 50px;

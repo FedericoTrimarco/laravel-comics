@@ -1,5 +1,10 @@
 .container {
-  width: 80%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-2 {
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -35,6 +40,10 @@
   flex-wrap: wrap;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .h-100 {
   height: 100%;
 }
@@ -49,6 +58,14 @@
 
 .px-5 {
   padding: 0 500px;
+}
+
+.p-3 {
+  padding: 20px;
+}
+
+.pe-3 {
+  padding-right: 20px;
 }
 
 .me-3 {
@@ -75,6 +92,10 @@
   text-align: center;
 }
 
+.text-end {
+  text-align: right;
+}
+
 .fs-3 {
   font-size: 20px;
 }
@@ -85,6 +106,10 @@
 
 .fs-2 {
   font-size: 40px;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 * {
@@ -173,4 +198,71 @@ footer h2 {
 }
 .news p {
   color: #fff;
+}
+
+.product-details .jumbo {
+  height: 500px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
+.product-details .jumbo .comic-img {
+  position: relative;
+  top: 230px;
+  width: 250px;
+  height: 350px;
+  border: 2px solid #fff;
+}
+.product-details .jumbo .comic-img img {
+  width: 100%;
+  height: 100%;
+}
+.product-details .jumbo .comic-img span {
+  background-color: #0182f9;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px;
+}
+.product-details .jumbo .comic-img span:first-of-type {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.product-details .jumbo .comic-img span:last-of-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.product-details .comic-info {
+  height: 800px;
+  background: #0182f9;
+  background: linear-gradient(180deg, #0182f9 13%, #fff 13%);
+}
+.product-details .comic-info .left {
+  padding-right: 30px;
+  width: 75%;
+}
+.product-details .comic-info .left h1 {
+  color: #1c3d57;
+}
+.product-details .comic-info .left p {
+  line-height: 30px;
+  color: #76787a;
+}
+.product-details .comic-info .left .price {
+  background-color: #55ba5a;
+  border-bottom: 2px solid green;
+  color: rgba(255, 255, 255, 0.473);
+  margin: 30px 0;
+}
+.product-details .comic-info .left .price .detail-white {
+  color: #fff;
+}
+.product-details .comic-info .left .price .d-flex {
+  border-right: 2px solid green;
+}
+.product-details .comic-info .right {
+  width: 25%;
+}
+.product-details .comic-info .right h2 {
+  color: #807d7d;
 }
